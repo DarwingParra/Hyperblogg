@@ -1,6 +1,15 @@
 Guardaremos cada comando del Git en este archivo plano
 
+git config --global user.name "nombre" = se crea un nombre de usuario para el git
+git config --global user.email "email" = se crea un email de usuario para el git
+
 touch = se crea un archivo 
+
+cat (archivo) = Se puede ver que hay dentro del archivo viendolo directamente del terminal
+
+rm (archivo) = eliminas el archivo al que llamaste
+
+NOTA: TENER CUIDADO AL UTILIZAR EL COMANDO RM YA QUE PUEDE LLEGAR A BORRAR TODOS LOS DATOS DEL DISCO DURO
 
 code (nombre archivo) = accedemos al Visual Code para poder modificar
 
