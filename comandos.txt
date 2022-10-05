@@ -1,0 +1,15 @@
+Guardaremos cada comando del Git en este archivo plano
+
+touch = se crea un archivo 
+
+code (nombre archivo) = accedemos al Visual Code para poder modificar
+
+git add . = " Guarda toda la informacion que se haya modificado hasta el momento"
+
+git commit -m " se deja mensaje " = Se confirman los cambios y se avisa que cambio se hizo
+
+git status = se analiza que archivos todavia no aparecen registrados 
+
+git log = podemos ver todos los cambios que se le han hecho a los archivos, desde el mas nuevo al mas viejo
+
+git diff (commit1) (commit2) = Vemos la diferencia que tienes estos dos archivos en particular, utilizando sus commit para llamarlos
