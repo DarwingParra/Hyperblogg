@@ -40,3 +40,11 @@ Comandos para trabajo remoto con GIT
 >git log -S “Por contenido”: Buscar los commits con el contenido dentro del archivo.
 >git log > log.txt: guardar los logs en un archivo txt
 
+Ramas o Branches de Git
+
+>git branch nombre_de_la_rama : se crea la rama 
+>git checkout nombre_de_la_rama : se toma como Head la rama a la que llamamos
+>git branch -l : nos muestra todas las ramas creadas
+>git branch -d nombre_de_la_rama : elimina la rama a la que estamos indicando
+>git branch -m nombre_de_la_rama rama_nueva : renombra la rama 
+>git branch -b nombre_de_la_rama : se crea la rama y nos posiciona en ella 
