@@ -1,24 +1,42 @@
 Guardaremos cada comando del Git en este archivo plano
 
-git config --global user.name "nombre" = se crea un nombre de usuario para el git
-git config --global user.email "email" = se crea un email de usuario para el git
-
-touch = se crea un archivo 
-
-cat (archivo) = Se puede ver que hay dentro del archivo viendolo directamente del terminal
-
-rm (archivo) = eliminas el archivo al que llamaste
-
+>git init = Se crea al inicio para tener la carpeta git en una carpeta designada, se crean el repositorio y el staging
+>git config --global user.name "nombre" = se crea un nombre de usuario para el git
+>git config --global user.email "email" = se crea un email de usuario para el git
+>touch = se crea un archivo 
+>cat (archivo) = Se puede ver que hay dentro del archivo viendolo directamente del terminal
+>rm (archivo) = eliminas el archivo al que llamaste
 NOTA: TENER CUIDADO AL UTILIZAR EL COMANDO RM YA QUE PUEDE LLEGAR A BORRAR TODOS LOS DATOS DEL DISCO DURO
+>code (nombre archivo) = accedemos al Visual Code para poder modificar
+>git add . = " Guarda toda la informacion que se haya modificado hasta el momento"
+>git commit -m " se deja mensaje " = Se confirman los cambios y se avisa que cambio se hizo
+>git status = se analiza que archivos todavia no aparecen registrados 
+>git log = podemos ver todos los cambios que se le han hecho a los archivos, desde el mas nuevo al mas viejo
+>git diff (commit1) (commit2) = Vemos la diferencia que tienes estos dos archivos en particular, utilizando sus commit para llamarlos
 
-code (nombre archivo) = accedemos al Visual Code para poder modificar
+Comandos para trabajo remoto con GIT
 
-git add . = " Guarda toda la informacion que se haya modificado hasta el momento"
+>git clone url_del_servidor_remoto: Nos permite descargar los archivos de la ultima version de la rama principal y todo el historial de cambios en la carpeta .git.
+>git push: Luego de hacer git add y git commit debemos ejecutar este comando para mandar los cambios al servidor remoto.
+>git fetch: Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).
+>git merge: Tambien usamos el comando git merge con servidores remotos. Lo necesitamos para combinar los ultimos cambios del servidor remoto y nuestro directorio de trabajo.
+>git pull: Basicamente, git fetch y git merge al mismo tiempo.
 
-git commit -m " se deja mensaje " = Se confirman los cambios y se avisa que cambio se hizo
+>git log --oneline:Te muestra el id commit y el titulo del commit.
+>git log --decorate: Te muestra donde se encuentra el head point en el log.
+>git log --stat: Explica el numero de lineas que se cambiaron brevemente.
+>git log -p: Explica el numero de lineas que se cambiaron y te muestra que se cambio en el contenido.
+>git shortlog: Indica que commits ha realizado un usuario, mostrando el usuario y el titulo de sus commits.
+>git log --graph --oneline --decorate y
+>git log --pretty=format:"%cn hizo un commit %h el dia %cd": Muestra mensajes personalizados de los commits.
+>git log -3: Limitamos el numero de commits.
+>git log --after=“2018-1-2”
+>git log --after=“today” y
+>git log --after=“2018-1-2” --before=“today”: Commits para localizar por fechas.
+>git log --author=“Name Author”: Commits hechos por autor que cumplan exactamente con el nombre.
+>git log --grep=“INVIE”: Busca los commits que cumplan tal cual esta escrito entre las comillas.
+>git log --grep=“INVIE” –i: Busca los commits que cumplan sin importar mayusculas o minusculas.
+>git log – index.html: Busca los commits en un archivo en especifico.
+>git log -S “Por contenido”: Buscar los commits con el contenido dentro del archivo.
+>git log > log.txt: guardar los logs en un archivo txt
 
-git status = se analiza que archivos todavia no aparecen registrados 
-
-git log = podemos ver todos los cambios que se le han hecho a los archivos, desde el mas nuevo al mas viejo
-
-git diff (commit1) (commit2) = Vemos la diferencia que tienes estos dos archivos en particular, utilizando sus commit para llamarlos
