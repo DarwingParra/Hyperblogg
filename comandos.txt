@@ -48,3 +48,7 @@ Ramas o Branches de Git
 >git branch -d nombre_de_la_rama : elimina la rama a la que estamos indicando
 >git branch -m nombre_de_la_rama rama_nueva : renombra la rama 
 >git branch -b nombre_de_la_rama : se crea la rama y nos posiciona en ella 
+
+Manejo del merge
+
+>git merge nombre_de_la_rama : fusiona la rama que se llama con la rama actual
