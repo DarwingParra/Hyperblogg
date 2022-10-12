@@ -52,3 +52,11 @@ Ramas o Branches de Git
 Manejo del merge
 
 >git merge nombre_de_la_rama : fusiona la rama que se llama con la rama actual
+
+Manejo de Git con GitHub
+
+> git remote add (El nombre que desees) URL = Guardar la URL del repositorio de GitHub con el nombre que desees
+> git remote o git remote -v = Verificar que la URL se haya guardado correctamente
+> git pull (el nombre que desees) master --allow-unrelated-histories = Traer la version del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes. Podemos usar
+> git push (el nombre que desees) master = para guardar los cambios de nuestro repositorio local en GitHub
+
