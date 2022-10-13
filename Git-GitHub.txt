@@ -1,0 +1,18 @@
+Comandos utilizados para repositorio remoto Git-GitHub
+
+> git remote add (nombre x) URL : sede del repositorio remoto para gestionar nuestro proyecto mediante conexion HTTPS
+
+>git remote : verifica la existencia del nombre x
+
+>git remote -v : verifica las existencias de diferentes nombrex
+
+>git config -l : permite ver los parametros de configuracion 
+
+>git push (nombre x) master : fusiona una copia del master local con el remoto
+
+>git pull (nombre x) master : fusiona una copia del master remoto con el local
+
+>git config --global user.email 'email' : modifica el valor de la variable user.email en la configuracion
+
+>git config --global user.name 'name' : modifica el valor de la variable user.name en la configuracion
+
