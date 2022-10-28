@@ -2,6 +2,8 @@ COMANDOS UTILIZADOS Git-GitHub (REPOSITORIO REMOTO)
 
 > git remote add (nombre x) URL : sede del repositorio remoto para gestionar nuestro proyecto mediante conexion HTTPS
 
+>git remote set-URL (nombre x) ssh-URL : configura git para conectar con el repositorio remoto a traves de SSH (en lugar de HTTPS)
+
 >git remote : verifica la existencia del nombre x
 
 >git remote -v : verifica las existencias de diferentes nombrex
@@ -16,7 +18,7 @@ COMANDOS UTILIZADOS Git-GitHub (REPOSITORIO REMOTO)
 
 >git config --global user.name 'name' : modifica el valor de la variable user.name en la configuracion
 
->git remote set-URL (nombre x) ssh-URL : configura git para conectar con el repositorio remoto a traves de SSH (en lugar de HTTPS)
+>git remote rm (nombre x) : Elimina el repositorio local del git
 
 SHH : GENERACION DE CLAVES PUBLICA Y PRIVADA
 

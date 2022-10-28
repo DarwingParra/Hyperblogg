@@ -1,5 +1,0 @@
-* Por un lado probaremos con enviar esto al GitHub
-
->Estudiar seguridad informatica con la finalidad de hacer lo que amo
->Conocer tanto lo bueno como lo malo y saber aprovecharlo
->No rendirme nunca
