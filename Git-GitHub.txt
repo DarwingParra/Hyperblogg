@@ -10,6 +10,8 @@ COMANDOS UTILIZADOS Git-GitHub (REPOSITORIO REMOTO)
 
 >git config -l : permite ver los parametros de configuracion 
 
+>git pull (nombrex) master --allow-unrelated-histories : Trae todo los documentos generados del Git al repositorio, con eso no sucede más el error  
+
 >git push (nombre x) master : fusiona una copia del master local con el remoto
 
 >git pull (nombre x) master : fusiona una copia del master remoto con el local
